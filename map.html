@@ -1,0 +1,26 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+<link href="jsmaps/jsmaps.css" rel="stylesheet" type="text/css" />
+<script src="jsmaps/jsmaps-libs.js" type="text/javascript"></script>
+<script src="jsmaps/jsmaps-panzoom.js" type="text/javascript"></script>
+<script src="jsmaps/jsmaps.min.js" type="text/javascript"></script>
+<script src="maps/world.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div>Map of the world</div>
+<div class="jsmaps-wrapper" id="world-map"></div>
+  <script type="text/javascript">
+
+    $(function() {
+
+      $('#world-map').JSMaps({
+        map: 'world'
+      });
+
+    });
+    
+  </script>
+</body>
+</html>
